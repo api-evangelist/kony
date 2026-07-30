@@ -1,19 +1,48 @@
 aid: kony
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kony.png
 name: Kony
-description: Kony is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kony was a U.S. digital banking and low-code application platform company, best known for the Kony Quantum
+  multiexperience development platform and the Kony DBX digital banking suite. Temenos acquired Kony and folded
+  the digital banking business into Temenos Infinity and the Quantum platform into Temenos Quantum; non-banking
+  Kony Quantum customers were transitioned to HCL Volt MX, managed by HCL Software. Kony no longer operates an
+  independent developer program or public API. The kony.com apex and www hosts now redirect to the Temenos
+  "Kony is now Temenos" announcement, docs.kony.com resolves to the Temenos Base Camp Quantum documentation, and
+  only the authenticated Quantum Fabric Console at manage.kony.com is still served on the Kony domain. This
+  profile is retained as an acquisition record pointing at its successors rather than as a live API provider.
 url: https://raw.githubusercontent.com/api-evangelist/kony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-live-api
+x-status: acquired
+x-acquired-by: temenos
+x-successors:
+- temenos
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Low-Code
+- Mobile
+- Application Development
+- Digital Banking
+- Enterprise
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.kony.com/
+  url: https://www.kony.com/
+- type: Documentation
+  name: Temenos Quantum documentation (successor to docs.kony.com)
+  url: https://basecamp.temenos.com/s/quantum-documentation
+- type: Login
+  name: Quantum Fabric Console
+  url: https://manage.kony.com/
+- type: Lifecycle
+  url: lifecycle/kony-lifecycle.yml
+- type: DomainSecurity
+  url: security/kony-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
