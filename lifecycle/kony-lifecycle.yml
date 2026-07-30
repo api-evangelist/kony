@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.temenos.com/press_release/kony-is-now-temenos/
+status: acquired
+summary: >-
+  Kony no longer operates as an independent company or developer program. Temenos
+  acquired Kony and folded the digital banking business into Temenos Infinity and the
+  Kony Quantum multiexperience development platform into Temenos Quantum. Non-banking
+  Kony Quantum customers were transitioned to HCL Volt MX, managed by HCL Software.
+  There is no Kony-branded API versioning policy, deprecation policy, SLA, or status
+  page to capture.
+acquisition:
+  acquirer: Temenos
+  acquirer_repo: all/temenos
+  announcement: https://www.temenos.com/press_release/kony-is-now-temenos/
+successors:
+- name: Temenos Infinity
+  scope: digital banking (former Kony DBX)
+  url: https://www.temenos.com/
+- name: Temenos Quantum
+  scope: multiexperience development platform (former Kony Quantum), banking customers
+  docs: https://basecamp.temenos.com/s/quantum-documentation
+- name: HCL Volt MX
+  scope: non-banking former Kony Quantum customers, managed by HCL Software
+domain_disposition:
+- host: www.kony.com
+  status: 301
+  redirects_to: https://www.temenos.com/press_release/kony-is-now-temenos/
+- host: kony.com
+  status: 301
+  redirects_to: https://www.temenos.com/press_release/kony-is-now-temenos/
+- host: docs.kony.com
+  status: 301
+  redirects_to: https://basecamp.temenos.com/s/quantum-documentation
+- host: manage.kony.com
+  status: 200
+  note: Quantum Fabric Console still served on the Kony domain (authenticated)
+- host: community.kony.com
+  status: NXDOMAIN
+- host: support.kony.com
+  status: NXDOMAIN
+- host: cloud.kony.com
+  status: NXDOMAIN
+versioning: null
+deprecation: null
+sla: null
+status_page: null
+deprecated_operations: []

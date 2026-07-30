@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.kony.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 14 23:59:59 2027 GMT
+  hsts: false
+domains:
+- domain: kony.com
+  dnssec: false
+  caa:
+  - 128 issue "godaddy.com"
+  - 128 iodef "mailto:CloudAdmin@temenos.com"
+  - 128 issue "amazon.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.kony.com/.well-known/*
+host: https://www.kony.com
+note: >-
+  No .well-known discovery surface is published. The kony.com apex and www host 301
+  to https://www.temenos.com/press_release/kony-is-now-temenos/, so every probed path
+  resolves through the redirect to a 404. Recorded as negative evidence; re-probe is cheap.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
