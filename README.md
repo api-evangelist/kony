@@ -64,18 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kony was a U.S. digital banking and low-code application platform company, best known for the Kony Quantum
-multiexperience development platform and the Kony DBX digital banking suite.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: acquired.** Temenos acquired Kony and folded the digital banking business into Temenos Infinity and the
-Quantum platform into Temenos Quantum. Non-banking Kony Quantum customers were transitioned to HCL Volt MX,
-managed by HCL Software. See [Kony is now Temenos](https://www.temenos.com/press_release/kony-is-now-temenos/).
+Kony was a U.S. digital banking and low-code application platform company, best known for the Kony Quantum multiexperience development platform and the Kony DBX digital banking suite. Temenos acquired Kony and folded the digital banking business into Temenos Infinity and the Quantum platform into Temenos Quantum; non-banking Kony Quantum customers were transitioned to HCL Volt MX, managed by HCL Software. Kony no longer operates an independent developer program or public API. The kony.com apex and www hosts now redirect to the Temenos "Kony is now Temenos" announcement, docs.kony.com resolves to the Temenos Base Camp Quantum documentation, and only the authenticated Quantum Fabric Console at manage.kony.com is still served on the Kony domain. This profile is retained as an acquisition record pointing at its successors rather than as a live API provider.
 
-Kony no longer operates an independent developer program or public API:
+**Areas:** Company · Low-Code · Mobile · Application Development · Digital Banking · Enterprise · Acquired
 
-- `kony.com` / `www.kony.com` — 301 to the Temenos announcement
-- `docs.kony.com` — 301 to [Temenos Base Camp Quantum documentation](https://basecamp.temenos.com/s/quantum-documentation)
-- `manage.kony.com` — authenticated Quantum Fabric Console, still served on the Kony domain
-- `community.kony.com`, `support.kony.com`, `cloud.kony.com` — NXDOMAIN
+## Kony on APIs.io (historical record)
 
-Successor profile: [all/temenos](../temenos/). Backed by: insight-partners.
+Everything profiled for Kony is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kony/](https://apis.io/providers/kony/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kony Domain Security](https://apis.io/security/kony/kony-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kony.com/)
+- [Documentation](https://basecamp.temenos.com/s/quantum-documentation)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kony: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kony/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
